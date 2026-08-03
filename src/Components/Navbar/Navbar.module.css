@@ -1,0 +1,10 @@
+nav{
+    top:0;
+    height:100px;
+    width:100%;
+    content: center;
+    display:flex;
+    margin-top:2px;
+    background-color: rgb(101, 177, 212);
+    border:solid rgb(54, 105, 201);
+}
