@@ -1,15 +1,37 @@
 import React from 'react'
 import style from './Weather.module.css'
 import Background from '../../assets/Background.jpg'
+import HumidityIcon from '../../assets/HumidityIcon.jpg'
+import WindIcon from '../../assets/WindIcon.png'
 
 const Weather = () => {
   return (
-   <div className='weather' style={{ backgroundImage: `url(${Background})` }}>
+   <div className='weather' style={{
+     backgroundImage: `url(${Background})`,
+     backgroundSize:"cover",
+     backgroundPosition:"center",
+     width:"100%",
+     height:"280px",
+     marginTop:"0px"}}>
         
         <p className='location'>London</p>
         <p className='temperature'>16°C</p>
-       
-    </div>
+        <div className='Humidity'>
+          <img src={ HumidityIcon } alt="" />
+          <div>
+            <p>90 %</p>
+            <span>Humidity</span>
+          </div>
+        </div>
+        <div className='WindSpeed'>
+          <img src={ WindIcon } alt="" />
+          <div>
+            <p>3.6km/h</p>
+            <span>Wind Speed</span>
+          </div>
+        </div>
+      </div>
+    
   )
 }
 
