@@ -11,8 +11,12 @@ const Weather = () => {
       backgroundSize: "cover",
       backgroundPosition: "center",
       width: "100%",
-      height: "300px",
-      marginTop: "0px"
+      height: "400px",
+      marginTop: "0px",
+      display: "flex",
+      gap: "40px",
+      justifyContent: "center",
+      alignItems: "center"
     }}>
 
       <p className='location'>London</p>

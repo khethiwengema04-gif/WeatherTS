@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar'
 import { Search } from './Components/Search/Search'
 import Weather from './Components/Weather/Weather'
 import { Toggle }  from './Components/Toggle/Toggle'
+import { HourCard } from './Components/HourCard/HourCard'
 
 export const App = () => {
   const [isDark, setIsDark] = React.useState(false);
@@ -19,6 +20,7 @@ export const App = () => {
        handleChange={() => setIsDark(!isDark)} />
           <Search/>
           <Weather/>
+          <HourCard/>
         </div>
 
       </div>  

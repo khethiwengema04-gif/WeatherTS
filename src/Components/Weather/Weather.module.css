@@ -10,14 +10,14 @@
 }
 
 .temperature {
-    color: #fff;
+    background-color: #fff;
     font-size: 200px;
     line-height: 1;
 
 }
 
 .location {
-    color: #fff;
+    background-color: #fff;
     font-size: 400px;
 }
 
@@ -52,6 +52,10 @@ wind {
     align-items: bottom-center;
     justify-content: center;
     color: #fff;
+    background-color: #fff;
 
 
+}
+.weather{
+    display:flex;
 }
