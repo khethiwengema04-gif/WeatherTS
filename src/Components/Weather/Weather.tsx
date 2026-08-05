@@ -11,14 +11,14 @@ const Weather = () => {
       backgroundSize: "cover",
       backgroundPosition: "center",
       width: "100%",
-      height: "280px",
+      height: "300px",
       marginTop: "0px"
     }}>
 
       <p className='location'>London</p>
       <p className='temperature'>16°C</p>
       <div className={style['humidity']}>
-        <img src={HumidityIcon} alt="" height="100" width="100" />
+        <img src={HumidityIcon} alt="" height="100" width="100"  />
         <div>
           <p>90 %</p>
           <span>Humidity</span>

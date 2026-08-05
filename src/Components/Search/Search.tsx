@@ -6,6 +6,6 @@ export const Search = () => {
      <div className={style['search-container']}>
                  <Searchbar/>
 
-       </div>
+    </div>
  )
 }

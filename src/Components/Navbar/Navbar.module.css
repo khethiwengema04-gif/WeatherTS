@@ -5,6 +5,7 @@ nav{
     content: center;
     display:flex;
     margin-top:2px;
-    background-color:rgb(54, 173, 241);
+    background-color:var(--background-color);
+    color:var(--primary-text-color);
     border:solid rgb(54, 105, 201);
 }

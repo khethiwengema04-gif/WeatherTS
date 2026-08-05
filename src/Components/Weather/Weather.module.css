@@ -21,7 +21,7 @@
     font-size: 400px;
 }
 
-.weather-data {
+/* .weather-data {
     width: 100%;
     color: #fff;
     margin-top: 40px;
@@ -35,9 +35,9 @@
     align-items: flex-start;
     gap: 10px;
     font-size: 20px;
-}
+} */
 
-humidity {
+humidity{
     width: 10px;
     height: 10px;
     align-items: center;
