@@ -3,7 +3,7 @@ import style from './HourCard.module.css'
 
 export const HourCard = () => {
   return (
-    <div>
+    <div className={style['HourCard']}>
         <h3>Hourly Forecast</h3>
         <p>Temperature:🌡️ 25°C</p>
         <p>Humidity: 60%</p>

@@ -7,6 +7,8 @@ export default function Navbar () {
   return (
     <nav>
         <div className={style.content}>
+           <div className={style['WeatherIcon']}>
+            </div>
             <Text varient={'h1'} style= {{margin:0}}>WEATHER</Text>
 
         </div>
