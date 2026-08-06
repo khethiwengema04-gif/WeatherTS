@@ -13,7 +13,7 @@ export const App = () => {
   return (
     <div className="App" data-theme={isDark ? "dark" : "light"}>
 
-      <div id='app-container'>
+      <div id='app-con tainer'>
         <div id='scrollable'>
           <Navbar />
           <Toggle
