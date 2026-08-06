@@ -1,11 +1,7 @@
 import './App.css'
 // import React from 'react'
 import React, { useState } from 'react';
-import Navbar from './Components/Navbar/Navbar'
-import { Search } from './Components/Search/Search'
-import Weather from './Components/Weather/Weather'
 import { Toggle } from './Components/Toggle/Toggle'
-import { HourCard } from './Components/HourCard/HourCard'
 import WeekelyCard from './Components/WeekelyCard/WeekelyCard'
 
 export const App = () => {
@@ -15,13 +11,9 @@ export const App = () => {
 
       <div id='app-con tainer'>
         <div id='scrollable'>
-          <Navbar />
           <Toggle
             isChecked={isDark}
             handleChange={() => setIsDark(!isDark)} />
-          <Search />
-          <Weather />
-          <HourCard />
           <WeekelyCard days={[
             { day: 'Mon', icon: 'https://openweathermap.org/img/wn/01d.png', high: 25, low: 15 },
             { day: 'Tue', icon: 'https://openweathermap.org/img/wn/02d.png', high: 22, low: 14 },
