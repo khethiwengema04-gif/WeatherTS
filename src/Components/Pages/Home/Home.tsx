@@ -5,7 +5,7 @@ import Weather from '../../Weather/Weather'
 import { HourCard } from '../../HourCard/HourCard'
 import WeekelyCard from '../../WeekelyCard/WeekelyCard'
 import { Toggle } from '../../Toggle/Toggle'
-import SettingsIcon from './assets/SettingsIcon.png'
+
 
 
 export const Home = () => {
