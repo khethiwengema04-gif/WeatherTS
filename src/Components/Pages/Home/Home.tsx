@@ -6,17 +6,20 @@ import { HourCard } from '../../HourCard/HourCard'
 import WeekelyCard from '../../WeekelyCard/WeekelyCard'
 import { Toggle } from '../../Toggle/Toggle'
 
+type HomeProps = {
+    isDark: boolean,
+    handleToggleChange: () => void
+}
 
+export const Home = ({ isDark, handleToggleChange }: HomeProps) => {
 
-export const Home = () => {
-    const [isDark, setIsDark] = React.useState(false);
     return (
-        <div className="App" data-theme={isDark ? "dark" : "light"}>
+        <>
             <Navbar />
             <Search />
             <Toggle
                 isChecked={isDark}
-                handleChange={() => setIsDark(!isDark)} />
+                handleChange={handleToggleChange} />
             <Weather />
             <HourCard />
             <WeekelyCard days={[
@@ -29,7 +32,7 @@ export const Home = () => {
                 { day: 'Sun', icon: 'https://openweathermap.org/img/wn/11d.png', high: 12, low: 4 },
             ]} />
 
-        </div>
+        </>
 
     )
 }
