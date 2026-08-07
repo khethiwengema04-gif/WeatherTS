@@ -1,11 +1,18 @@
-nav{
-    top:0;
-    height:100px;
-    width:100%;
+nav {
+    top: 0;
+    height: 100px;
+    width: 100%;
     content: center;
-    display:flex;
-    margin-top:2px;
-    background-color:var(--background-color);
-    color:var(--primary-text-color);
-    border:solid rgb(54, 105, 201);
+    display: flex;
+    margin-top: 2px;
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    border: solid rgb(54, 105, 201);
+}
+
+.SettingsIcon {
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    cursor: pointer;
 }

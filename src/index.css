@@ -1,4 +1,4 @@
-:root{
+:root {
   --toggle-bg: rgb(0, 217, 255);
   --toggle-fg-hover: #0084ff;
   --background-color: #ffffff;
@@ -9,7 +9,7 @@
 
 [data-theme="dark"] {
   --background-color: #1a1a1a;
-  --foreground-color: blue;
+  --foreground-color: rgb(145, 145, 181);
   --primary-text-color: #ffffff;
   --secondary-text-color: #0a0a0a;
   --toggle-bg: #283452;
